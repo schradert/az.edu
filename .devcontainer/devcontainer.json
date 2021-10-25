@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.194.3/containers/python-3
+{
+	"name": "Python 3",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+		"args": { 
+			"VARIANT": "3.9",
+			"NODE_VERSION": "none"
+		}
+	},
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+        "tamasfe.even-better-toml",
+        "tomoki1207.pdf",
+        "grapecity.gc-excelviewer",
+        "shinichi-takii.sql-bigquery"
+	],
+	"remoteUser": "vscode"
+}

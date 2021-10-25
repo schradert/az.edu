@@ -1,1 +1,6 @@
 data/
+dist/
+credentials.json
+.streamlit/secrets.toml
+__pycache__/
+.vscode/settings.json
